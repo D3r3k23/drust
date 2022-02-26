@@ -1,0 +1,12 @@
+[package]
+name = "hello_glfw"
+version = "0.1.0"
+authors = ["Derek Henderson"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.glfw]
+version = "0.44.0"
+git = "https://github.com/bjz/glfw-rs.git"
+default-features = false
