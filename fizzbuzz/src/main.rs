@@ -1,11 +1,10 @@
 fn main() {
     println!("Welcome to FizzBuzz in Rust");
     println!("Enter n: ");
-
-    let mut line = String::new();
-    std::io::stdin().read_line(&mut line).unwrap();
-
     let n: u32 = loop {
+        let mut line = String::new();
+        std::io::stdin().read_line(&mut line).unwrap();
+
         let value: i32 = line.trim().parse().unwrap();
         if value >= 0 {
             break value as u32

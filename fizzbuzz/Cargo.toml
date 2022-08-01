@@ -1,7 +1,7 @@
 [package]
 name = "fizzbuzz"
 version = "0.1.0"
-authors = ["Derek Henderson <62639977+D3r3k23@users.noreply.github.com>"]
+authors = ["Derek Henderson <derekhenderson818@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
